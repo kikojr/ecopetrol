@@ -20,14 +20,11 @@ const App = () => {
 
             <Navbar />
 
-            <Form onSubmit={handleSubmit(onSubmit)}>
-                <div>
-                
-                    Fecha:22-02-2021 
-                </div>
-                <div className="grid grid-cols-3 gap-4">
+            <Form onSubmit={handleSubmit(onSubmit)} className="w-9/12 mx-auto my-20 space-y-4">
 
-                    <div className="eco">
+              <div className="grid grid-cols-3 gap-4">
+
+                    <div className="rx">
                         <h2 className="text-center">MUELLE GRB</h2>
                         <h3 className="text-center text-xl">CARGUE FO FLOAT</h3>
                         <Form.Group controlId="formBasic">
@@ -42,27 +39,9 @@ const App = () => {
 
                         </Form.Group>
 
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>ACUMULADO</Form.Label>
-                            <Form.Control type="text" ref={register} name="" placeholder=" ACUMULADO" />
-
-                        </Form.Group>
-
-
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>PROGRESION </Form.Label>
-                            <Form.Control type="number" placeholder=" PROGRESION" />
-                        </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>CUMPLIMIENTO</Form.Label>
-                            <Form.Control type="number" placeholder="CUMPLIMIENTO" />
-                        </Form.Group>
-
                     </div>
 
-                    <div className="eco">
+                    <div className="rx">
                         <h2 className="text-center">MUELLE GRB</h2>
                         <h3 className="text-center text-xl">VENTA FO</h3>
                         <Form.Group controlId="formBasic">
@@ -76,28 +55,9 @@ const App = () => {
                             <Form.Control type="number" ref={register} name="vf_Mg_plan_dia" placeholder="INGRESE PLAN DIA" />
 
                         </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>ACUMULADO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" ACUMULADO" />
-
-                        </Form.Group>
-
-
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>PROGRESION </Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" PROGRESION" />
-                        </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>CUMPLIMIENTO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder="CUMPLIMIENTO" />
-                        </Form.Group>
-
                     </div>
 
-                    <div className="eco">
+                    <div className="rx">
                         <h2 className="text-center">MUELLE GRB</h2>
                         <h3 className="text-center text-xl">VENTA DIESEL MARINO</h3>
                         <Form.Group controlId="formBasic">
@@ -112,27 +72,9 @@ const App = () => {
 
                         </Form.Group>
 
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>ACUMULADO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" ACUMULADO" />
-
-                        </Form.Group>
-
-
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>PROGRESION </Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" PROGRESION" />
-                        </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>CUMPLIMIENTO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder="CUMPLIMIENTO" />
-                        </Form.Group>
-
                     </div>
 
-                    <div className="eco">
+                    <div className="rx">
                         <h2 className="text-center">MUELLE GRB</h2>
                         <h3 className="text-center text-xl">DESCARGUE CRUDO</h3>
                         <Form.Group controlId="formBasic">
@@ -146,28 +88,9 @@ const App = () => {
                             <Form.Control type="number" ref={register} name="dc_Mg_plan_dia" placeholder="INGRESE PLAN DIA" />
 
                         </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>ACUMULADO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" ACUMULADO" />
-
-                        </Form.Group>
-
-
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>PROGRESION </Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" PROGRESION" />
-                        </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>CUMPLIMIENTO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder="CUMPLIMIENTO" />
-                        </Form.Group>
-
                     </div>
 
-                    <div className="eco">
+                    <div className="rx">
                         <h2 className="text-center">MUELLE GRB</h2>
                         <h3 className="text-center text-xl">CARGUE ORG</h3>
                         <Form.Group controlId="formBasic">
@@ -181,28 +104,9 @@ const App = () => {
                             <Form.Control type="number" ref={register} name="dc_Mg_plan_dia" placeholder="INGRESE PLAN DIA" />
 
                         </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>ACUMULADO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" ACUMULADO" />
-
-                        </Form.Group>
-
-
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>PROGRESION </Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" PROGRESION" />
-                        </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>CUMPLIMIENTO</Form.Label>
-                            <Form.Control type="number" placeholder="CUMPLIMIENTO" />
-                        </Form.Group>
-
                     </div>
 
-                    <div className="eco">
+                    <div className="rx">
                         <h2 className="text-center">MUELLE GRB</h2>
                         <h3 className="text-center text-xl">DESCARGUE ISOBUTANO</h3>
                         <Form.Group controlId="formBasic">
@@ -216,25 +120,6 @@ const App = () => {
                             <Form.Control type="number" ref={register} name="di_Mg_plan_dia" placeholder="INGRESE PLAN DIA" />
 
                         </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>ACUMULADO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" ACUMULADO" />
-
-                        </Form.Group>
-
-
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>PROGRESION </Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" PROGRESION" />
-                        </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>CUMPLIMIENTO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder="CUMPLIMIENTO" />
-                        </Form.Group>
-
                     </div>
 
 
@@ -255,25 +140,6 @@ const App = () => {
                             <Form.Control type="number" ref={register} name="df_Pb_plan_dia" placeholder="INGRESE PLAN DIA" />
 
                         </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>ACUMULADO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" ACUMULADO" />
-
-                        </Form.Group>
-
-
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>PROGRESION </Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" PROGRESION" />
-                        </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>CUMPLIMIENTO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder="CUMPLIMIENTO" />
-                        </Form.Group>
-
                     </div>
 
                     <div className="rx">
@@ -290,25 +156,6 @@ const App = () => {
                             <Form.Control type="number" ref={register} name="dc_Pb_plan_dia" placeholder="INGRESE PLAN DIA" />
 
                         </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>ACUMULADO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" ACUMULADO" />
-
-                        </Form.Group>
-
-
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>PROGRESION </Form.Label>
-                            <Form.Control type="number" placeholder=" PROGRESION" />
-                        </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>CUMPLIMIENTO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder="CUMPLIMIENTO" />
-                        </Form.Group>
-
                     </div>
 
                     <div className="rx">
@@ -325,25 +172,6 @@ const App = () => {
                             <Form.Control type="number" ref={register} name="" placeholder="INGRESE PLAN DIA" />
 
                         </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>ACUMULADO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" ACUMULADO" />
-
-                        </Form.Group>
-
-
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>PROGRESION </Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" PROGRESION" />
-                        </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>CUMPLIMIENTO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder="CUMPLIMIENTO" />
-                        </Form.Group>
-
                     </div>
 
                     <div className="rx">
@@ -360,25 +188,6 @@ const App = () => {
                             <Form.Control type="number" ref={register} name="" placeholder="INGRESE PLAN DIA" />
 
                         </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>ACUMULADO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" ACUMULADO" />
-
-                        </Form.Group>
-
-
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>PROGRESION </Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" PROGRESION" />
-                        </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>CUMPLIMIENTO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder="CUMPLIMIENTO" />
-                        </Form.Group>
-
                     </div>
 
                     <div className="rx">
@@ -395,25 +204,6 @@ const App = () => {
                             <Form.Control type="number" ref={register} name="" placeholder="INGRESE PLAN DIA" />
 
                         </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>ACUMULADO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" ACUMULADO" />
-
-                        </Form.Group>
-
-
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>PROGRESION </Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" PROGRESION" />
-                        </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>CUMPLIMIENTO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder="CUMPLIMIENTO" />
-                        </Form.Group>
-
                     </div>
 
                     <div className="rx">
@@ -429,24 +219,6 @@ const App = () => {
                             <Form.Label>PLAN DIA</Form.Label>
                             <Form.Control type="number" ref={register} name="" placeholder="INGRESE PLAN DIA" />
 
-                        </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>ACUMULADO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" ACUMULADO" />
-
-                        </Form.Group>
-
-
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>PROGRESION </Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" PROGRESION" />
-                        </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>CUMPLIMIENTO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder="CUMPLIMIENTO" />
                         </Form.Group>
 
                     </div>
@@ -467,25 +239,6 @@ const App = () => {
                             <Form.Control type="number" ref={register} name="dc_B_plan_dia" placeholder="INGRESE PLAN DIA" />
 
                         </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>ACUMULADO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" ACUMULADO" />
-
-                        </Form.Group>
-
-
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>PROGRESION </Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" PROGRESION" />
-                        </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>CUMPLIMIENTO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder="CUMPLIMIENTO" />
-                        </Form.Group>
-
                     </div>
                 </div>
 
@@ -505,25 +258,6 @@ const App = () => {
                             <Form.Control type="number" ref={register} name="fo_ctq_grb_plan_dia" placeholder="INGRESE PLAN DIA" />
 
                         </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>ACUMULADO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" ACUMULADO" />
-
-                        </Form.Group>
-
-
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>PROGRESION </Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" PROGRESION" />
-                        </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>CUMPLIMIENTO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder="CUMPLIMIENTO" />
-                        </Form.Group>
-
                     </div>
                   
 
@@ -541,24 +275,6 @@ const App = () => {
                             <Form.Label>PLAN DIA</Form.Label>
                             <Form.Control type="number" ref={register} name="fo_ctq_venta_plan_dia" placeholder="INGRESE PLAN DIA" />
 
-                        </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>ACUMULADO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" ACUMULADO" />
-
-                        </Form.Group>
-
-
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>PROGRESION </Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" PROGRESION" />
-                        </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>CUMPLIMIENTO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder="CUMPLIMIENTO" />
                         </Form.Group>
 
                     </div>
@@ -580,24 +296,6 @@ const App = () => {
 
                         </Form.Group>
 
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>ACUMULADO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" ACUMULADO" />
-
-                        </Form.Group>
-
-
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>PROGRESION </Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" PROGRESION" />
-                        </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>CUMPLIMIENTO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder="CUMPLIMIENTO" />
-                        </Form.Group>
-
                     </div>
 
                     <div className="dt">
@@ -613,24 +311,6 @@ const App = () => {
                             <Form.Label>PLAN DIA</Form.Label>
                             <Form.Control type="number" ref={register} name="dc_fo_mu_plan_dia" placeholder="INGRESE PLAN DIA" />
 
-                        </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>ACUMULADO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" ACUMULADO" />
-
-                        </Form.Group>
-
-
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>PROGRESION </Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" PROGRESION" />
-                        </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>CUMPLIMIENTO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder="CUMPLIMIENTO" />
                         </Form.Group>
 
                     </div>
@@ -650,24 +330,6 @@ const App = () => {
 
                         </Form.Group>
 
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>ACUMULADO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" ACUMULADO" />
-
-                        </Form.Group>
-
-
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>PROGRESION </Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" PROGRESION" />
-                        </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>CUMPLIMIENTO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder="CUMPLIMIENTO" />
-                        </Form.Group>
-
                     </div>
 
                     <div className="dt">
@@ -683,24 +345,6 @@ const App = () => {
                             <Form.Label>PLAN DIA</Form.Label>
                             <Form.Control type="number" ref={register} name="" placeholder="INGRESE PLAN DIA" />
 
-                        </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>ACUMULADO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" ACUMULADO" />
-
-                        </Form.Group>
-
-
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>PROGRESION </Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" PROGRESION" />
-                        </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>CUMPLIMIENTO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder="CUMPLIMIENTO" />
                         </Form.Group>
 
                     </div>
@@ -719,25 +363,6 @@ const App = () => {
                             <Form.Control type="number" ref={register} name="" placeholder="INGRESE PLAN DIA" />
 
                         </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>ACUMULADO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" ACUMULADO" />
-
-                        </Form.Group>
-
-
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>PROGRESION </Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" PROGRESION" />
-                        </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>CUMPLIMIENTO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder="CUMPLIMIENTO" />
-                        </Form.Group>
-
                     </div>
                      
                     <div className="dt">
@@ -753,24 +378,6 @@ const App = () => {
                             <Form.Label>PLAN DIA</Form.Label>
                             <Form.Control type="number" ref={register} name="vdm_mu_plan_dia" placeholder="INGRESE PLAN DIA" />
 
-                        </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>ACUMULADO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" ACUMULADO" />
-
-                        </Form.Group>
-
-
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>PROGRESION </Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" PROGRESION" />
-                        </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>CUMPLIMIENTO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder="CUMPLIMIENTO" />
                         </Form.Group>
 
                     </div>
@@ -790,24 +397,6 @@ const App = () => {
 
                         </Form.Group>
 
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>ACUMULADO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" ACUMULADO" />
-
-                        </Form.Group>
-
-
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>PROGRESION </Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" PROGRESION" />
-                        </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>CUMPLIMIENTO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder="CUMPLIMIENTO" />
-                        </Form.Group>
-
                     </div>
 
                     <div className="dt">
@@ -825,23 +414,6 @@ const App = () => {
 
                         </Form.Group>
 
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>ACUMULADO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" ACUMULADO" />
-
-                        </Form.Group>
-
-
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>PROGRESION </Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" PROGRESION" />
-                        </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>CUMPLIMIENTO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder="CUMPLIMIENTO" />
-                        </Form.Group>
 
                     </div>  
 
@@ -860,24 +432,6 @@ const App = () => {
 
                         </Form.Group>
 
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>ACUMULADO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" ACUMULADO" />
-
-                        </Form.Group>
-
-
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>PROGRESION </Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" PROGRESION" />
-                        </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>CUMPLIMIENTO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder="CUMPLIMIENTO" />
-                        </Form.Group>
-
                     </div>
 
                     <div className="dt">
@@ -893,24 +447,6 @@ const App = () => {
                             <Form.Label>PLAN DIA</Form.Label>
                             <Form.Control type="number" ref={register} name="vls_plan_dia" placeholder="INGRESE PLAN DIA" />
 
-                        </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>ACUMULADO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" ACUMULADO" />
-
-                        </Form.Group>
-
-
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>PROGRESION </Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" PROGRESION" />
-                        </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>CUMPLIMIENTO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder="CUMPLIMIENTO" />
                         </Form.Group>
 
                     </div>
@@ -931,24 +467,6 @@ const App = () => {
 
                         </Form.Group>
 
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>ACUMULADO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" ACUMULADO" />
-
-                        </Form.Group>
-
-
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>PROGRESION </Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" PROGRESION" />
-                        </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>CUMPLIMIENTO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder="CUMPLIMIENTO" />
-                        </Form.Group>
-
                     </div>
 
                     
@@ -967,24 +485,6 @@ const App = () => {
 
                         </Form.Group>
 
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>ACUMULADO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" ACUMULADO" />
-
-                        </Form.Group>
-
-
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>PROGRESION </Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder=" PROGRESION" />
-                        </Form.Group>
-
-                        <Form.Group controlId="formBasic">
-                            <Form.Label>CUMPLIMIENTO</Form.Label>
-                            <Form.Control type="number" ref={register} name="" placeholder="CUMPLIMIENTO" />
-                        </Form.Group>
-
                     </div>
 
                     <div className="dt">
@@ -1001,8 +501,7 @@ const App = () => {
                     </div>
                     
                 </div>
-
-                <Button type="submit">Enviar</Button>
+                <button type="submit" className="w-full bg-green-500 p-2 rounded">Enviar</button>
             </Form>
 
 

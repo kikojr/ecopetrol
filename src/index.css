@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Lato', sans-serif;
+}
+
+
+.eco {
+  padding: 40px;
+  background-color: whitesmoke solid;
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border:grey;
+}
+
+.rx{
+  padding: 40px;
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: whitesmoke solid;
+  background-color: #ddd;
+}
+
+.ax{
+  padding: 40px;
+  max-width: 500px;
+  border: whitesmoke solid;
+  background-color: #ddd;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+
+.dt{
+  padding: 40px;
+  max-width: 500px;
+  border: whitesmoke solid;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: #ddd;
+}
